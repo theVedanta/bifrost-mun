@@ -19,7 +19,7 @@ const Footer = () => {
                 </h4>
 
                 <h4 className="font-medium opacity-75">
-                    &copy;{" "}
+                    Developed by{" "}
                     <a
                         target="_blank"
                         rel="noreferrer"
@@ -28,7 +28,7 @@ const Footer = () => {
                     >
                         theVedanta
                     </a>{" "}
-                    2022
+                    &copy; 2022
                 </h4>
             </Container>
         </footer>

@@ -19,6 +19,11 @@ const resources = () => {
             href: "/",
             img: brochure,
         },
+        {
+            name: "Conference Brochure",
+            href: "/",
+            img: brochure,
+        },
     ];
     return (
         <Container className="pt-16">

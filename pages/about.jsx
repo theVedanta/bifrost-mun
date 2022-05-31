@@ -8,7 +8,7 @@ const about = () => {
         <Container className="h-screen flex pt-16">
             <div className="para flex flex-col items-start justify-center h-full w-1/2">
                 <h1 className="text-4xl font-semibold mb-6">Bifrost MUN</h1>
-                <p className="text-lg pr-32 mb-5 leading-loose">
+                <p className="text-xl pr-40 mb-5 leading-loose">
                     We, at{" "}
                     <span className="text-gold">
                         Bifrost Model United Nations
@@ -33,8 +33,6 @@ const about = () => {
                     className="rounded-md"
                 />
             </div>
-
-            
         </Container>
     );
 };
