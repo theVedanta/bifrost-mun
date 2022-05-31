@@ -5,5 +5,9 @@
 @tailwind utilities;
 
 body {
-    background-color: #f6f6f6;
+    background-color: #111827;
+    color: #f6f6f6;
+}
+.h {
+    height: 10vh;
 }

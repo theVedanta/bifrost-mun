@@ -1,10 +1,18 @@
-import Container from "../components/Container";
+import Header from "../components/Header/Header";
+import Members from "../components/Members/Members";
+import Meta from "../components/Meta";
 
 const index = () => {
     return (
-        <Container>
-            <h1>Hello World</h1>
-        </Container>
+        <>
+            <Meta
+                title="Bifrost MUN"
+                description="Bifrost's first MUN"
+                keywords="Bifrost, MUN"
+            />
+            <Header />
+            <Members />
+        </>
     );
 };
 
