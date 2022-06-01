@@ -5,10 +5,12 @@ import img from "../public/sample.png";
 
 const about = () => {
     return (
-        <Container className="h-screen flex pt-16">
-            <div className="para flex flex-col items-start justify-center h-full w-1/2">
-                <h1 className="text-4xl font-semibold mb-6">Bifrost MUN</h1>
-                <p className="text-xl pr-40 mb-5 leading-loose">
+        <Container className="h-screen flex pt-16 tab:flex-col ph:flex-col-reverse ph:h-auto">
+            <div className="para flex flex-col items-start justify-center h-full w-1/2 tab:w-full tab:px-0 tab:mt-10 tab:items-center ph:my-16 ph:h-auto">
+                <h1 className="text-4xl font-semibold mb-6 tab:text-center">
+                    Bifrost MUN
+                </h1>
+                <p className="text-xl pr-40 mb-5 leading-loose blap:text-lg blap:pr-28 blap:leading-loose lap:text-base lap:pr-16 tab:text-center tab:px-10 ph:px-2 ph:text-justify">
                     We, at{" "}
                     <span className="text-gold">
                         Bifrost Model United Nations
@@ -22,14 +24,11 @@ const about = () => {
                 </p>
                 <Button href="/">Brochure</Button>
             </div>
-            <div className="w-1/2 flex justify-center items-center">
+            <div className="w-1/2 flex justify-center items-center blap:pl-20 tab:w-full tab:mb-20 tab:mt-10 tab:px-24 ph:my-0 ph:mt-14 ph:px-8">
                 <Image
                     src={img}
                     alt="alt"
-                    width={600}
-                    height={400}
                     placeholder="blur"
-                    objectFit="cover"
                     className="rounded-md"
                 />
             </div>

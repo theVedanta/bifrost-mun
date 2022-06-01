@@ -89,16 +89,17 @@ const Header = () => {
                 placeholder="blur"
                 src={img}
                 alt="img"
-                width={300}
+                width={350}
                 height={300}
                 objectFit="contain"
                 className="rounded-md"
+                priority
             />
 
-            <h1 className="font-bold text-7xl mt-5 mb-3 text-center w-2/3 tracking-tight">
+            <h1 className="font-bold text-7xl mt-5 mb-3 text-center w-full tracking-tight lap:text-6xl mph:text-5xl mph:mt-0">
                 Bifrost MUN
             </h1>
-            <h2 className="font-medium text-2xl ">
+            <h2 className="font-medium text-2xl lap:text-xl mph:text-lg">
                 &quot;Breakthrough to{" "}
                 <span className="text-gold">Excellence</span>
                 &quot;
@@ -106,7 +107,7 @@ const Header = () => {
 
             <Clock />
 
-            <h3 className="font-medium mt-5 text-xl">
+            <h3 className="font-medium mt-5 text-xl mph:text-lg mph:mt-3">
                 Maiden Edition (18-19th June)
             </h3>
         </Container>

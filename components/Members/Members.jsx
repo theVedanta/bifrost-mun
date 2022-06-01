@@ -30,7 +30,7 @@ const Members = () => {
             pfp: img,
         },
         {
-            name: "Avni Agarwal",
+            name: "Vedanta Somnathe",
             post: "Director General",
             pfp: img,
         },
@@ -42,7 +42,7 @@ const Members = () => {
                 The Secretriat
             </h1>
 
-            <div className="member-cards flex flex-wrap justify-evenly items-center px-12">
+            <div className="member-cards flex flex-wrap justify-evenly items-center px-12 tab:px-0">
                 {members.map((member) => (
                     <MemberCard member={member} key={member.name} />
                 ))}
