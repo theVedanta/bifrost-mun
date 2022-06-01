@@ -10,8 +10,7 @@ const ContactBox = () => {
                 <span className="text-gold">9818103659</span>
             </a>
             <a href="tel:+91 9818103659" className="text-lg ph:text-base">
-                Augustya Jaipuria -&gt;{" "}
-                <span className="text-gold">9818103659</span>
+                Avni Agarwal -&gt; <span className="text-gold">9911438529</span>
             </a>
 
             <h3 className="text-xl font-medium my-5 ph:text-base">OR</h3>
@@ -23,10 +22,10 @@ const ContactBox = () => {
                 bifrostmun@gmail.com
             </a>
             <a
-                href="mailto:bifrostmun@gmail.com"
+                href="mailto:info.bifrostmun@gmail.com"
                 className="text-lg text-gold ph:text-base"
             >
-                bifrostmun@gmail.com
+                info.bifrostmun@gmail.com
             </a>
         </div>
     );

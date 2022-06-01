@@ -39,15 +39,18 @@ const Nav = () => {
             style={{ transform: "rotateX(90deg)", transformOrigin: "top" }}
         >
             <div className="w-1/3 tab:w-1/2">
-                <h1 className="text-2xl font-semibold mph:text-xl">
-                    Bifrost MUN
-                </h1>
+                <h1 className="text-2xl font-bold mph:text-xl">Bifrost MUN</h1>
             </div>
 
             <div
                 className={`nav-links w-2/3 transition-all ease-in-out duration-500 flex justify-end items-center tab:fixed tab:top-0 tab:h-screen tab:w-1/2 tab:flex-col tab:bg-gray-800 tab:justify-center tab:z-30 ${
                     ham ? "tab:right-0" : "tab:-right-full"
                 } ph:w-2/3`}
+                style={
+                    ham
+                        ? { boxShadow: "0 0 50px rgba(246, 246, 246, 0.1)" }
+                        : {}
+                }
             >
                 {links.map((link) => (
                     <Link href={link.href} key={link.href}>
@@ -60,8 +63,10 @@ const Nav = () => {
                     </Link>
                 ))}
                 <Button
-                    href="/"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSfB9acEWoVU2vV7honSLqwUStFeVdZ7a6NAXlfH0j34skryKg/viewform"
                     className="ml-1 lap:text-sm tab:my-4 tab:text-base"
+                    target="_blank"
+                    rel="noreferrer"
                 >
                     Register
                 </Button>

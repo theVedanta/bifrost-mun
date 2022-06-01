@@ -3,6 +3,7 @@ import ContactBox from "../components/Contact/ContactBox";
 import QueryBox from "../components/Contact/QueryBox";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
+import Meta from "../components/Meta";
 
 const contact = () => {
     const particlesInit = async (main) => {
@@ -14,6 +15,11 @@ const contact = () => {
 
     return (
         <Container className="pt-16 flex h-screen tab:h-auto tab:flex-col tab:pt-24 tab:items-center tab:justify-center">
+            <Meta
+                title="Bifrost MUN - Contact"
+                description="Bifrost MUN contact us page for getting in touch with on of our executive members of a member of the executive board. In case of any query, write us a message!"
+                keywords="bifrost, mun, model united nations, contact, query, send message, bifrost ed tech, bifrostedtech, united nations"
+            />
             <Particles
                 id="tsparticles"
                 init={particlesInit}

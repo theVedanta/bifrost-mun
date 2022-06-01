@@ -1,38 +1,49 @@
 import Container from "../Container";
 import MemberCard from "./MemberCard";
-import img from "../../public/sample.png";
+import agj from "../../public/sec/agj.jpeg";
+import avni from "../../public/sec/avni.jpeg";
+import arman from "../../public/sec/arman.jpeg";
+import krisha from "../../public/sec/krisha.jpeg";
+import sing from "../../public/sec/sing.jpeg";
+import nan from "../../public/sec/nan.jpeg";
+import aag from "../../public/sec/aag.jpeg";
 
 const Members = () => {
     const members = [
         {
             name: "Aagastya Jaipuria",
             post: "Secretary General",
-            pfp: img,
+            pfp: agj,
         },
         {
             name: "Avni Agarwal",
             post: "Director General",
-            pfp: img,
+            pfp: avni,
         },
         {
-            name: "Aagastya Jaipuria",
-            post: "Secretary General",
-            pfp: img,
+            name: "Armaan Sareen",
+            post: "Deputy Secretary General",
+            pfp: arman,
         },
         {
-            name: "Avni Agarwal",
-            post: "Director General",
-            pfp: img,
+            name: "Krisha Gupta",
+            post: "USG Delegate Affairs",
+            pfp: krisha,
         },
         {
-            name: "Aagastya Jaipuria",
-            post: "Secretary General",
-            pfp: img,
+            name: "Angad Singh Kahlon",
+            post: "USG Delegate Affairs",
+            pfp: sing,
         },
         {
-            name: "Vedanta Somnathe",
-            post: "Director General",
-            pfp: img,
+            name: "Nandika Jain",
+            post: "USG Marketing",
+            pfp: nan,
+        },
+        {
+            name: "Aarav Gupta",
+            post: "USG EB Affairs",
+            pfp: aag,
         },
     ];
 

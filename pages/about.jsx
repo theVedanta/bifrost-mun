@@ -1,11 +1,18 @@
 import Container from "../components/Container";
 import Button from "../components/Button";
 import Image from "next/image";
-import img from "../public/sample.png";
+import img from "../public/logo-gold.png";
+import Meta from "../components/Meta";
 
 const about = () => {
     return (
         <Container className="h-screen flex pt-16 tab:flex-col ph:flex-col-reverse ph:h-auto">
+            <Meta
+                title="Bifrost MUN - About"
+                description="Bifrost MUN is the first MUN offered by Bifrost Edtech. We wish to encourage all our future diplomats to strive for excellence"
+                keywords="bifrost, mun, model united nations, about, about us, about bifrost, bifrost ed tech, bifrostedtech, united nations"
+            />
+
             <div className="para flex flex-col items-start justify-center h-full w-1/2 tab:w-full tab:px-0 tab:mt-10 tab:items-center ph:my-16 ph:h-auto">
                 <h1 className="text-4xl font-semibold mb-6 tab:text-center">
                     Bifrost MUN
@@ -22,7 +29,9 @@ const about = () => {
                     to public speaking, research, deliberation, constructive
                     debate critical thinking.
                 </p>
-                <Button href="/">Brochure</Button>
+                <Button href="/brochure.pdf" target="_blank" rel="noreferrer">
+                    Brochure
+                </Button>
             </div>
             <div className="w-1/2 flex justify-center items-center blap:pl-20 tab:w-full tab:mb-20 tab:mt-10 tab:px-24 ph:my-0 ph:mt-14 ph:px-8">
                 <Image

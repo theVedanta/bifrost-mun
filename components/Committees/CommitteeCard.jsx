@@ -34,7 +34,7 @@ const CommitteeCard = ({ com }) => {
             {cardOpen ? (
                 <>
                     <h2 className="font-medium text-2xl mt-10 text-center mb-3">
-                        Members
+                        Executive Board
                     </h2>
                     <div className="com-members flex flex-wrap justify-evenly items-center">
                         {com.members.map((member) => (
