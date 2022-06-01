@@ -13,7 +13,7 @@ const contact = () => {
     };
 
     return (
-        <Container className="pt-16 flex h-screen">
+        <Container className="pt-16 flex h-screen tab:h-auto tab:flex-col tab:pt-24 tab:items-center tab:justify-center">
             <Particles
                 id="tsparticles"
                 init={particlesInit}
@@ -84,11 +84,11 @@ const contact = () => {
                 className="-z-10"
             />
 
-            <div className="contact w-1/2 flex justify-center items-center h-full">
+            <div className="contact w-1/2 flex justify-center items-center h-full tab:w-2/3 ph:w-full">
                 <ContactBox />
             </div>
 
-            <div className="query w-1/2 flex justify-center items-center h-full">
+            <div className="query w-1/2 flex justify-center items-center h-full tab:w-2/3 ph:w-full">
                 <QueryBox />
             </div>
         </Container>

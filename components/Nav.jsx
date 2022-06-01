@@ -39,7 +39,9 @@ const Nav = () => {
             style={{ transform: "rotateX(90deg)", transformOrigin: "top" }}
         >
             <div className="w-1/3 tab:w-1/2">
-                <h1 className="text-2xl font-semibold">Bifrost MUN</h1>
+                <h1 className="text-2xl font-semibold mph:text-xl">
+                    Bifrost MUN
+                </h1>
             </div>
 
             <div

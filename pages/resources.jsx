@@ -27,7 +27,7 @@ const resources = () => {
     ];
     return (
         <Container className="pt-16">
-            <h1 className="text-center text-5xl font-semibold mt-24 mb-20">
+            <h1 className="text-center text-5xl font-semibold mt-24 mb-20 ph:mt-10 ph:mb-8">
                 Resources
             </h1>
 
