@@ -6,13 +6,15 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postbuild": "next-sitemap"
   },
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
     "autoprefixer": "^10.4.7",
     "dotenv": "^16.0.1",
     "next": "12.1.6",
+    "next-sitemap": "^3.0.4",
     "notyf": "^3.10.0",
     "postcss": "^8.4.14",
     "react": "18.1.0",

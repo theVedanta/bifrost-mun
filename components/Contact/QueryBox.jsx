@@ -72,7 +72,7 @@ const QueryBox = () => {
                 />
                 <Input
                     name="mail"
-                    placeholder="yourmom@myhouse.cum"
+                    placeholder="youremail@domain.com"
                     label="Email"
                     type="email"
                     id="form_mail"
@@ -88,7 +88,7 @@ const QueryBox = () => {
                 <button
                     type="submit"
                     id="form_submit"
-                    className="font-medium w-full rounded-md bg-gold text-gray-900 py-3 mt-2 transition-all duration-150 cursor-pointer hover:scale-90 active:scale-75"
+                    className="font-medium w-full rounded-md bg-gold text-gray-900 py-3 mt-2 outline-none transition-all duration-150 cursor-pointer hover:scale-90 active:scale-75"
                 >
                     Submit
                 </button>

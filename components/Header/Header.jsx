@@ -14,7 +14,7 @@ const Header = () => {
     };
 
     return (
-        <Container className="flex flex-col items-center justify-center h-screen">
+        <Container className="flex flex-col items-center justify-center h-screen pt-16">
             <Particles
                 id="tsparticles"
                 init={particlesInit}
@@ -97,7 +97,7 @@ const Header = () => {
             />
 
             <h1 className="font-bold text-7xl mt-5 mb-3 text-center w-full tracking-tight lap:text-6xl mph:text-5xl mph:mt-0">
-                Bifrost MUN
+                BIFROST MUN
             </h1>
             <h2 className="font-medium text-2xl lap:text-xl mph:text-lg">
                 &quot;Breakthrough to{" "}

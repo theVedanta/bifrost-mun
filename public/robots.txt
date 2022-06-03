@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://bifrostmun.com
+
+# Sitemaps
+Sitemap: https://bifrostmun.com/sitemap.xml

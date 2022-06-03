@@ -1,5 +1,4 @@
 import Container from "../components/Container";
-import img from "../public/sample.png";
 import com1 from "../public/com/logos/1.png";
 import com2 from "../public/com/logos/2.png";
 import com3 from "../public/com/logos/3.png";
