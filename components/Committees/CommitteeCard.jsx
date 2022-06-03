@@ -15,7 +15,7 @@ const CommitteeCard = ({ com }) => {
                         alt="alt"
                         width={180}
                         height={180}
-                        objectFit="cover"
+                        objectFit="contain"
                         placeholder="blur"
                         className="rounded-md"
                     />

@@ -1,6 +1,6 @@
 const ContactBox = () => {
     return (
-        <div className="contact-box flex flex-col justify-center bg-gray-800 rounded-md px-12 py-10 lap:w-11/12 tab:mb-10 tab:w-full ph:mb-6 ph:px-8 ph:py-8">
+        <div className="contact-box flex w-2/3 flex-col justify-center bg-gray-800 rounded-md px-12 py-10 lap:w-11/12 tab:mb-10 tab:w-full ph:mb-6 ph:px-8 ph:py-8">
             <h2 className="text-2xl font-semibold mb-5">Contact Us</h2>
 
             <hr />

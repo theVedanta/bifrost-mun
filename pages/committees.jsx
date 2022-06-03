@@ -1,5 +1,16 @@
 import Container from "../components/Container";
 import img from "../public/sample.png";
+import com1 from "../public/com/logos/1.png";
+import com2 from "../public/com/logos/2.png";
+import com3 from "../public/com/logos/3.png";
+import adars from "../public/com/eb/adars.jpeg";
+import bum from "../public/com/eb/bum.jpeg";
+import dom from "../public/com/eb/dom.jpeg";
+import goo from "../public/com/eb/goo.jpeg";
+import ked from "../public/com/eb/ked.jpeg";
+import line from "../public/com/eb/line.jpeg";
+import shh from "../public/com/eb/shh.jpeg";
+import dev from "../public/com/eb/dev.jpeg";
 import CommitteeCard from "../components/Committees/CommitteeCard";
 import Meta from "../components/Meta";
 
@@ -8,17 +19,17 @@ const committees = () => {
         {
             name: "United Nations Human Rights Council",
             agenda: "Agenda: Eliminating Discrimination Against Children and Parents Based on Sexual Orientation and/or Gender Identity.",
-            logo: img,
+            logo: com1,
             members: [
                 {
                     name: "Adarsh Kumar Singh",
                     post: "Head Chairperson",
-                    pfp: img,
+                    pfp: adars,
                 },
                 {
                     name: "Bhumika Nagpal",
                     post: "Vice Chairperson",
-                    pfp: img,
+                    pfp: bum,
                 },
             ],
         },
@@ -26,22 +37,22 @@ const committees = () => {
         {
             name: "United Nations Environment Programme",
             agenda: "Agenda: Impact of Climate Crisis on Environment with Special emphasis on SDG13",
-            logo: img,
+            logo: com2,
             members: [
                 {
                     name: "Domil Anthony Johnson",
                     post: "Head Chairperson",
-                    pfp: img,
+                    pfp: dom,
                 },
                 {
                     name: "Gourav Singh",
                     post: "Vice Chairperson",
-                    pfp: img,
+                    pfp: goo,
                 },
                 {
                     name: "Vinayak Kedia",
                     post: "Rapporteur",
-                    pfp: img,
+                    pfp: ked,
                 },
             ],
         },
@@ -49,22 +60,22 @@ const committees = () => {
         {
             name: "United Nations Commission for the Status of Women",
             agenda: "Agenda: Women’s economic empowerment in the changing world of work with special emphasis on climate change and disaster risk reduction policies",
-            logo: img,
+            logo: com3,
             members: [
                 {
                     name: "Shreya Purdhani",
                     post: "Head Chairperson",
-                    pfp: img,
+                    pfp: shh,
                 },
                 {
                     name: "Devansh Jaiswal",
                     post: "Vice Chairperson",
-                    pfp: img,
+                    pfp: dev,
                 },
                 {
                     name: "Linet Christiana Thomas",
                     post: "Rapporteur",
-                    pfp: img,
+                    pfp: line,
                 },
             ],
         },

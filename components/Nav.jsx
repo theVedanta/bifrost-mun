@@ -55,7 +55,7 @@ const Nav = () => {
                 {links.map((link) => (
                     <Link href={link.href} key={link.href}>
                         <a
-                            onClick={() => setHam(!ham)}
+                            onClick={() => setHam(false)}
                             className={`px-4 py-2 ml-1 font-medium rounded-md transition-all duration-150 hover:bg-gray-800 lap:text-sm tab:py-4 tab:text-base`}
                         >
                             {link.title}
