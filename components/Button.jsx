@@ -1,8 +1,8 @@
 import Link from "next/link";
 
-const Button = ({ children, href, className, rel, target }) => {
+const Button = ({ children, href, className, rel, target, onClick }) => {
     return (
-        <Link target={target} rel={rel} href={href}>
+        <Link target={target} rel={rel} href={href} onClick={onClick}>
             <a
                 target={target}
                 rel={rel}

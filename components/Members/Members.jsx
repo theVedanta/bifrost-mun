@@ -35,11 +35,11 @@ const Members = () => {
             post: "USG Delegate Affairs",
             pfp: sing,
         },
-        // {
-        //     name: "Nandika Jain",
-        //     post: "USG Marketing",
-        //     pfp: nan,
-        // },
+        {
+            name: "Triveni Kalhan",
+            post: "USG Marketing",
+            pfp: nan,
+        },
         {
             name: "Aarav Gupta",
             post: "USG EB Affairs",
