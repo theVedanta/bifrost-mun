@@ -16,7 +16,7 @@ const resources = () => {
             img: brochure,
         },
         {
-            name: "Background Guides",
+            name: "Background Guides (coming soon)",
             href: "/",
             img: bg_guide,
         },

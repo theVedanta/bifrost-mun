@@ -29,7 +29,11 @@ const about = () => {
                     to public speaking, research, deliberation, constructive
                     debate critical thinking.
                 </p>
-                <Button href="/brochure.pdf" target="_blank" rel="noreferrer">
+                <Button
+                    href="/res/brochure.pdf"
+                    target="_blank"
+                    rel="noreferrer"
+                >
                     Brochure
                 </Button>
             </div>
