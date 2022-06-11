@@ -10,6 +10,7 @@ import ked from "../public/com/eb/ked.jpeg";
 import line from "../public/com/eb/line.jpeg";
 import shh from "../public/com/eb/shh.jpeg";
 import dev from "../public/com/eb/dev.jpeg";
+import anan from "../public/com/eb/anan.jpeg";
 import CommitteeCard from "../components/Committees/CommitteeCard";
 import Meta from "../components/Meta";
 
@@ -29,6 +30,11 @@ const committees = () => {
                     name: "Bhumika Nagpal",
                     post: "Vice Chairperson",
                     pfp: bum,
+                },
+                {
+                    name: "Ananya Sahoo",
+                    post: "Rapporteur",
+                    pfp: anan,
                 },
             ],
         },

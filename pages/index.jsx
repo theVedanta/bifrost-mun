@@ -5,6 +5,10 @@ import Meta from "../components/Meta";
 const index = () => {
     return (
         <>
+            <h1 className="null-tags hidden">Bifrost</h1>
+            <h1 className="null-tags hidden">MUN</h1>
+            <h1 className="null-tags hidden">Model United Nations</h1>
+            <h1 className="null-tags hidden">Bifrost MUN</h1>
             <Meta
                 title="Bifrost MUN"
                 description="We, at Bifrost Model United Nations firmly believe in the quality of debate and diplomacy and
@@ -13,7 +17,7 @@ const index = () => {
                     and training the future of the country. We provide avenues
                     to public speaking, research, deliberation, constructive
                     debate critical thinking."
-                keywords="bifrost, mun, model united nations, bifrost ed tech, bifrostedtech, united nations, bifrost home"
+                keywords="bifrost, mun, model, united, nations, bifrostmun, bifrost competition, mun, model united nation, bifrost ed tech, bifrostedtech, united nations, bifrost home"
             />
             <Header />
             <Members />
