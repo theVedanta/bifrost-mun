@@ -16,8 +16,8 @@ const resources = () => {
             img: brochure,
         },
         {
-            name: "Background Guides (coming soon)",
-            href: "/",
+            name: "Background Guides",
+            href: "https://drive.google.com/drive/u/2/folders/1CnexFUegv3Lp3tAEgS3TLSRzoncQYbl6",
             img: bg_guide,
         },
         {

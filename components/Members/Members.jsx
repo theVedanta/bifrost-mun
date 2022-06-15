@@ -31,11 +31,6 @@ const Members = () => {
             pfp: krisha,
         },
         {
-            name: "Angad Singh Kahlon",
-            post: "USG Delegate Affairs",
-            pfp: sing,
-        },
-        {
             name: "Triveni Kalhan",
             post: "USG Marketing",
             pfp: nan,
