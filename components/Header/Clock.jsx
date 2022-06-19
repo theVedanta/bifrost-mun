@@ -6,23 +6,6 @@ const Clock = () => {
     const [minutes, setMinutes] = useState(0);
     const [seconds, setSeconds] = useState(0);
 
-    const countDownDate = new Date("Jun 18, 2022").getTime();
-    const countDown = setInterval(() => {
-        const now = new Date().getTime();
-        const timeleft = countDownDate - now;
-
-        setDays(Math.floor(timeleft / (1000 * 60 * 60 * 24)));
-        setHours(
-            Math.floor((timeleft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))
-        );
-        setMinutes(Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60)));
-        setSeconds(Math.floor((timeleft % (1000 * 60)) / 1000));
-
-        if (timeleft < 0) {
-            clearInterval(countDown);
-        }
-    }, 1000);
-
     return (
         <div className="flex mt-14 rounded-md bg-gray-800 shadow-xl lap:mt-5">
             <div
